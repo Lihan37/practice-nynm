@@ -90,10 +90,128 @@ body {
     width: 416px;
     flex-direction: column;
     flex-shrink: 0;
-    color:  #444343);
+    color: #444343);
     font-family: Work Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* plans section */
+.plan-head {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin right: 60px;
+}
+
+.plan-des {
+    color: var(--dark-03, #737272);
+    text-align: left;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    background-color: #151414;
+    width: 100%;
+    color: #FFF;
+    padding: 130px 100px;
+    gap: 10px;
+    margin-top: 50px;
+
+}
+
+.footer-coloumn {
+    width: 50%;
+}
+
+.foot-head {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.foot-des {
+    display: flex;
+    width: 485px;
+    flex-direction: column;
+
+    Copy color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.subscribe {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.placeholder {
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: var(--dark-07, #F3F3F3);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.btn-sub {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #005FAC;
+    
+    color: #FFF;
+    text-align: center;
+
+    margin-top: 10px;
+    font-size: 15px;
+  
+    font-weight: 600;
+   
 }
